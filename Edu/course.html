@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>University</title>
+</head>
+
+<body>
+
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" style="text-decoration: none; color: white; font-size: 35px;">
+                LMS
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+            <h1>Our Courses</h1>
+
+    </section>
+
+
+  <!-- -------------------- COURSE -------------------------------------------- -->
+  <section class="course">
+    <h1>Courses we offer</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, natus.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, impedit autem distinctio ipsam possimus harum dignissimos id soluta sint iure!</p>
+        </div>
+        
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, impedit autem distinctio ipsam possimus harum dignissimos id soluta sint iure!</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, impedit autem distinctio ipsam possimus harum dignissimos id soluta sint iure!</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- -------------------- COURSE -------------------------------------------- -->
+
+
+
+<!-- -------------------- FACILITY -------------------------------------------- -->
+<section class="facilities">
+    <h1>Our Facilites</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, quo!</p>
+    <div class="row">
+        <div class="facilties-col">
+            <img src="./img/library.png"/>
+            <h3>World Class library</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto modi blanditiis odio aperiam voluptas vel perspiciatis vitae quasi suscipit reiciendis.</p>
+        </div>
+        
+        <div class="facilties-col">
+            <img src="./img/basketball.png"/>
+            <h3>Largest Playground</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto modi blanditiis odio aperiam voluptas vel perspiciatis vitae quasi suscipit reiciendis.</p>
+        </div>
+        <div class="facilties-col">
+            <img src="./img/cafeteria.png"/>
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto modi blanditiis odio aperiam voluptas vel perspiciatis vitae quasi suscipit reiciendis.</p>
+        </div>
+
+    </div>
+</section>
+<!-- -------------------- FACILITY -------------------------------------------- -->
+
+
+
+
+
+
+
+
+    <!-- -------------------- Footer -------------------------------------------- -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate tenetur facilis, doloremque temporibus alias similique voluptatum voluptatem a porro.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <p>Made With <i class="fa-solid fa-heart"></i> by Muhammad Farooq</p>
+    </section>
+    <!-- -------------------- Footer -------------------------------------------- -->
+
+
+    <!-- -------------------- JAVASCRIPT CODE -------------------------------------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+        
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+
+    </script>
+
+</body>
+
+</html>
